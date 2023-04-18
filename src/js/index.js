@@ -12,7 +12,7 @@ const botSay = (data) => {
     `waduhh sama dong aku juga suka ${data?.hoby}, anyway kamu suka nonton anime ga?`,
     `ohh ${data?.anime}, kalau boleh tau dah punya pacar belum ?`,
     `${data?.pacar}  yaaa, waduhh mau jadi pacar aku gak wkwkwk`,
-    `waduhh ${data?.selesai} `
+    `waduhh ${data?.selesai}  yaaa`
   ];
 };
 pertanyaan.innerHTML = botSay()[0];
