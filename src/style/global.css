@@ -68,3 +68,20 @@ button:hover{
     flex-direction: row;
     justify-content: center;
 }
+
+#load{
+    z-index: 9999;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 9;
+    background-image:url('/src/aset/ft.png') ;
+    background-size: cover;
+    background-color: #222222;
+    background-position: center;
+
+    
+
+}

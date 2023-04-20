@@ -71,8 +71,8 @@ function botDelay(jawabanUser) {
   jawaban.value = "";
 }
 
-$('#jawaban').keypress(function(e){
-    if(e.which ==13) {
+$('#jawaban').keypress((e) => {
+    if(e.which == 13) {
        botStarted()
     }
 })
@@ -84,6 +84,9 @@ function finishing() {
 function botEnd() {
 
   window.location.reload();
-} 
+}
 
-
+window.onload = ('load',function () {
+$('#load').delay('1000').fadeOut()
+  
+});
